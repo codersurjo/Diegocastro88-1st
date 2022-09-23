@@ -1,0 +1,248 @@
+@media (min-width:1440px){
+    .container {
+		max-width: 1312px;
+	}
+}
+
+@media (max-width:1300px){
+    .left_menu ul li {
+        padding: 0 12px;
+    }
+    .logo a {
+        font-size: 32px;
+    }
+    .copyright p a {
+        display: inline-block;
+    }
+   
+}
+
+@media (min-width:1200px){
+    .h_menu_mobile {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+    #nav{
+        display: none;
+    }
+}
+@media (max-width:1199px){
+    .h_menu_mobile {
+        display: none !important;
+    }
+    .right_menu ul li a {
+        font-size: 14px;
+    }
+    .logo a {
+        font-size: 27px;
+    }
+    .right_menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    h1 {
+        font-size: 38px;
+    }
+    .hero_form input {
+        font-size: 16px;
+        width: 240px;
+    }
+    .hero_form button {
+        font-size: 16px;
+    }
+    .slide_text {
+        font-size: 19px;
+    }
+    #nav{
+        display: block;
+    }
+}
+
+@media (max-width:991px){
+    .rev {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+    .section_padding {
+        padding: 70px 0;
+    }
+    .slider_area {
+        display: none;
+    }
+    .card-title {
+        font-size: 19px;
+    }
+    .card-header {
+        padding: 13px 20px;
+        background: transparent;
+        cursor: pointer;
+    }
+    .accordion .card-header::after {
+        margin-top: 2px;
+        color: #E94D35;
+    }
+    .hero_area_desing {
+        position: relative;
+        border-bottom: 0.2px solid rgba(0, 0, 0, 0.45);
+    }
+    .full_footer {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding-bottom: 50px;
+    }
+    .full_footer .full_menu {
+        margin: 17px 0;
+    }
+    .copyright{
+        padding-top: 30px;
+    }
+    .copyright p{
+        text-align: center;
+    }
+    .copyright p span{
+        display: block;
+        margin-top: 10px;
+    }
+    .footer_area_desing {
+        padding: 50px 0;
+        background: #000;
+    }
+    .left_menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .hash {
+        margin-top: 14px;
+    }
+}
+
+
+@media (max-width:767px){
+    .section_padding {
+        padding: 50px 0;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .hero_left h1 {
+        margin-bottom: 17px;
+    }
+    .hero_left p {
+        margin-bottom: 33px;
+    }
+    p {
+        font-size: 16px;
+    }
+    span {
+        font-size: 13px;
+    }
+    .more a {
+        font-size: 19px;
+    }
+    .fag_contact h2 {
+        font-size: 28px;
+    }
+    .accordion .card-header::after {
+        margin-top: 2px;
+        color: #E94D35;
+        top: 12px;
+        right: 15px;
+        position: absolute;
+    }
+    .card-header {
+        position: relative;
+    }
+    .card-title {
+        font-size: 17px;
+    }
+    .all_accordion_item {
+        margin: 50px 0;
+    }
+}
+
+@media (max-width:575px){
+    #menuToggle input {
+        width: 24px;
+        height: 24px;
+    }
+    #menuToggle span {
+        width: 24px;
+        height: 2px;
+    }
+    .logo a {
+        font-size: 22px;
+    }
+    .right_menu ul li a {
+        font-size: 13px;
+    }
+    .right ul li {
+        margin-left: 8px;
+    }
+    br{
+        display: none;
+    }
+    .single_plateform h3 {
+        font-weight: 700;
+        margin: 20px 0;
+        margin-bottom: 10px;
+    }
+    h3 {
+        font-size: 21px;
+    }
+    .hero_form {
+        display: block;
+    }
+    .hero_form input {
+        font-size: 14px;
+        width: 100%;
+    }
+    .hero_form button {
+        font-size: 17px;
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+    }
+    #menuToggle input {
+        width: 24px;
+        height: 24px;
+        top: 0;
+        left: 0;
+    }
+}
+
+@media (max-width:450px){
+    .right ul li a {
+        padding: 5px 8px;
+        font-size: 10px;
+    }
+    #menuToggle span {
+        width: 24px;
+        height: 2px;
+        margin-bottom: 4px;
+    }
+    .logo a {
+        font-size: 17px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    #menuToggle {
+        margin-left: 5px;
+    }
+}
